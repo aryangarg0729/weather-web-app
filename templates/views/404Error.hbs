@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{>headerlinks}}
+  </head>
+  <body>
+    <!-- <h1>welcome to static web</h1> -->
+
+    
+    {{>navbar}}
+
+
+    {{!-- -----------main Header---------- --}}
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- image div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                             <img src="images/404.png" alt="" class="img-fluid" title="AG Brothers">
+                        </figure>
+                        <p>welcome to weather app</p>
+                        <h1>{{errmessage}}</h1>
+                        <a href="/"><button >go back</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{>footer}}
+
+
+    
+  </body>
+</html>
